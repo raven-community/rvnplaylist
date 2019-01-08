@@ -1,0 +1,5 @@
+{
+  "v": 3,
+  "q": { "find": {} },
+  "r": { "f": ".[] | { id: .tx.h, explorers: [\"https://ravencoin.network/tx/\\(.tx.h)\", \"https://checkraven.com/tx/\\(.tx.h)\"] }" }
+}

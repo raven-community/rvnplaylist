@@ -1,0 +1,9 @@
+{
+  "v": 3,
+  "q": {
+    "find": {}
+  },
+  "r": {
+    "f": ".[] | { from: [.in[] | { prevTransactionId: .e.h, sender: \"ravencoin:\\(.e.a)\" }], to: [.out[] | { receiver: \"ravencoin:\\(.e.a?)\", amount: .e.v? }] }"
+  }
+}
